@@ -1,3 +1,10 @@
+# emply tuple 
+# empty_tuple = ()
+# empty_list = []
+# empty_dict = {}
+# empty_set = set()
+
+    
 import requests
 
 url = f"https://api.github.com/repos/hashicorp/terraform/pulls"
@@ -22,6 +29,9 @@ if response.status_code == 200:
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
      
+
+
+
     
 
 
